@@ -1,0 +1,14 @@
+{
+  "name": "generate-password-action",
+  "version": "1.0.0",
+  "description": "GitHub Action to generate a random password of length 1 with at least 1 letter, 1 number, or 1 special character.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests'"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  }
+}

@@ -1,5 +1,5 @@
 name: 'Generate Random Password'
-description: 'Generates a random password with at least 1 letter, 1 number, and 1 special character. Password length is 1.'
+description: 'Generates a random password with at least 1 letter, 1 number, and 1 special character. Password length is 10.'
 runs:
   using: 'node20'
   main: 'index.js'
@@ -9,3 +9,4 @@ outputs:
 branding:
   icon: 'lock'
   color: 'blue'
+ 

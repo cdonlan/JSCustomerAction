@@ -1,11 +1,12 @@
 # Generate Random Password GitHub Action
 
-This custom JavaScript GitHub Action generates a random password of length 1, which is guaranteed to be a letter, a number, or a special character.
+This custom JavaScript GitHub Action generates a random password of length 10, which is guaranteed to include at least one letter, one number, and one special character.
 
 ## Outputs
-- `password`: The generated password character.
+- `password`: The generated password string.
 
 ## Usage Example
+
 ```yaml
 - name: Generate password
   id: genpass
@@ -15,10 +16,13 @@ This custom JavaScript GitHub Action generates a random password of length 1, wh
 ```
 
 ## Development
+
 Install dependencies:
+
 ```sh
 npm install
 ```
 
 ## License
+
 MIT
